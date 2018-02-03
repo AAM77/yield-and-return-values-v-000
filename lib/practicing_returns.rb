@@ -7,8 +7,8 @@ def hello(array)
     collection << yield(array[i])
     i += 1
   end
-end
 
-return collection
+  return collection
+end
 
 hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
