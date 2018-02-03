@@ -9,4 +9,6 @@ def hello(array)
   end
 end
 
+return collection
+
 hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
